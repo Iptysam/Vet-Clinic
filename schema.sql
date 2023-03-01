@@ -7,7 +7,8 @@ CREATE TABLE IF NOT EXISTS public.animals
     date_of_birth date,
     escape_attempts integer,
     neutered boolean,
-    weight_kg numeric
+    weight_kg numeric,
+    species text COLLATE pg_catalog."default"
 )
 
 TABLESPACE pg_default;
